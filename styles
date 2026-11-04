@@ -1,0 +1,203 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b2b2b; /* Color general del texto */
+    background-color: #f4f6f9;
+}
+
+
+header {
+    background-color: #1a202c;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #f6ad55; 
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #e2e8f0;
+    font-size: 1.2rem;
+}
+
+main {
+  background-color: #d10b0be9;
+}
+
+
+main {
+    background-color: #a31111;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.titulo-seccion {
+    color: #275fae;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3182ce;
+    padding-bottom: 8px;
+}
+
+
+.tarjeta-auto {
+    background-color: #821a1a;
+    border: 1px solid #1854a1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    
+    
+    padding: 20px;
+    
+    
+    margin: 20px 0;
+}
+
+.tarjeta-auto img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-auto h3 {
+    color: #2c5282; 
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    color: #102d5e; 
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+.especificaciones {
+    background-color: #22b01b;
+    padding: 15px;
+    border-left: 4px solid #3182ce;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.especificaciones h4 {
+    color: #2d3748; 
+    margin-bottom: 8px;
+}
+
+.especificaciones ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #4a5568; 
+}
+
+.especificaciones li strong {
+    color: #1a202c;
+}
+
+
+.contenedor-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #baba24;
+}
+
+.precio {
+    color: #276749; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.enlace-comprar {
+    color: #d61111;
+    background-color: #2b6cb0; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.enlace-comprar:hover {
+    background-color: #2c5282;
+    text-decoration: none;
+}
+
+
+aside {
+    background-color: #ab8c1c;
+    border: 1px solid #266c94;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+aside h3 {
+    color: #2b6cb0;
+    margin-bottom: 10px;
+}
+
+.categorias ul {
+    list-style: none;
+}
+
+.categorias ul li {
+    margin: 8px 0;
+}
+
+.categorias ul li a {
+    color: #2c5282; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.categorias ul li a:hover {
+    color: #1a365d;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #1a202c;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #2010d3;
+}
+
+footer a {
+    color: #e47814; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
