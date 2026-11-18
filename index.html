@@ -1,142 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productos</title>
-  <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoElite Club</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>!doctype html>
-< lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catálogo de Productos - Simulador CSS</title>
-    <!-- Vinculación del CSS -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <>
-    <!-- Encabezado con navegación principal -->
+<body>
+
     <header>
-      <h1>Mi Tienda Virtual</h1>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
-          <li><a href="#ofertas">Ofertas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
+        <h1>AutoElite Club</h1>
+        <p>Pasión, potencia y diseño automotriz al alcance de tus manos</p>
     </header>
 
-    <!-- Contenido principal y barra lateral -->
-    <div class="contenedor-principal">
-      <!-- Zona Central: Lista de productos -->
-      <main id="productos">
-        <h2>Nuestros Productos</h2>
-        <section class="catalogo">
-          <!-- Producto 1 -->
-          <article class="tarjeta-producto">
-            <h2>Audífonos Bluetooth</h2>
-            <p class="descripcion">
-              Cancelación de ruido activa y batería de 30 horas.
-            </p>
-            <p class="precio">$120.000 COP</p>
-            <a
-              href="#"
-              class="btn btn-comprar"
-              onclick="comprar('Audífonos Bluetooth')"
-              >Comprar ahora</a
-            >
-          </article>
+    <main>
+        <section>
+            <h2>Modelos Destacados</h2>
 
-          <!-- Producto 2: Producto Destacado (para probar especificidad) -->
-          <article class="tarjeta-producto">
-            <h2>Teclado Mecánico</h2>
-            <p class="descripcion">
-              Switch azul, retroiluminación RGB configurable.
-            </p>
-            <p class="precio">$250.000 COP</p>
-            <a
-              href="#"
-              class="btn btn-comprar"
-              id="btn-destacado"
-              onclick="comprar('Teclado Mecánico')"
-              >Comprar ahora</a
-            >
-          </article>
+            <!-- Vehículo 1 -->
+            <article>
+                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80" alt="Deportivo GT Sprint">
+                <h3>Deportivo GT Sprint</h3>
+                <p>Diseñado para la pista y la carretera. Ofrece una aerodinámica avanzada con una respuesta inmediata en cada curva.</p>
+                
+                <h4>Especificaciones Técnicas:</h4>
+                <ul>
+                    <li><strong>Motor:</strong> 4.0L V8 Biturbo</li>
+                    <li><strong>Potencia:</strong> 650 HP @ 6,500 RPM</li>
+                    <li><strong>Aceleración:</strong> 0 a 100 km/h en 3.2s</li>
+                </ul>
+                <p>$85,000 USD <a href="#comprar">Comprar Ahora</a></p>
+            </article>
 
-          <!-- Producto 3 -->
-          <article class="tarjeta-producto">
-            <h2>Mouse Gamer</h2>
-            <p class="descripcion">
-              Sensor óptico de alta precisión con 16000 DPI.
-            </p>
-            <p class="precio">$85.000 COP</p>
-            <a href="#" class="btn btn-comprar" onclick="comprar('Mouse Gamer')"
-              >Comprar ahora</a
-            >
-          </article>
+            <!-- Vehículo 2 -->
+            <article>
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Clásico Roadster 1968">
+                <h3>Clásico Roadster 1968</h3>
+                <p>Una joya vintage restaurada a la perfección, ideal para coleccionistas y amantes del estilo retro.</p>
+                
+                <h4>Especificaciones Técnicas:</h4>
+                <ul>
+                    <li><strong>Motor:</strong> 3.5L V6 Atmosférico</li>
+                    <li><strong>Transmisión:</strong> Manual de 5 velocidades</li>
+                    <li><strong>Interior:</strong> Cuero artesanal cosido a mano</li>
+                </ul>
+                <p>$120,000 USD <a href="#comprar">Comprar Ahora</a></p>
+            </article>
 
-          <!-- Producto 4 -->
-          <article class="tarjeta-producto">
-            <h2>Monitor 24" 144Hz</h2>
-            <p class="descripcion">Panel IPS con tiempo de respuesta de 1ms.</p>
-            <p class="precio">$780.000 COP</p>
-            <a
-              href="#"
-              class="btn btn-comprar"
-              onclick="comprar('Monitor 24 144Hz')"
-              >Comprar ahora</a
-            >
-          </article>
+            <!-- Vehículo 3 -->
+            <article>
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=800&q=80" alt="SUV Electra Pro">
+                <h3>SUV Electra Pro</h3>
+                <p>El futuro de la movilidad familiar. Cero emisiones con el máximo confort y conectividad de última generación.</p>
+                
+                <h4>Especificaciones Técnicas:</h4>
+                <ul>
+                    <li><strong>Batería:</strong> 100 kWh Dual Motor</li>
+                    <li><strong>Autonomía:</strong> 550 km por carga</li>
+                    <li><strong>Tecnología:</strong> Conducción autónoma Nivel 3</li>
+                </ul>
+                <p>$68,500 USD <a href="#comprar">Comprar Ahora</a></p>
+            </article>
         </section>
-      </main>
 
-      <!-- Barra Lateral: Menú secundario de filtros -->
-      <aside>
-        <h2>Categorías</h2>
-        <ul>
-          <li><a href="#" onclick="filtrar('Audio')">Audio</a></li>
-          <li><a href="#" onclick="filtrar('Periféricos')">Periféricos</a></li>
-          <li><a href="#" onclick="filtrar('Pantallas')">Pantallas</a></li>
-          <li><a href="#" onclick="filtrar('Accesorios')">Accesorios</a></li>
-        </ul>
-      </aside>
-    </div>
+        <section>
+            <h2>Categorías Disponibles</h2>
+            <ul>
+                <li><a href="#">Superdeportivos de Lujo</a></li>
+                <li><a href="#">Clásicos e Históricos</a></li>
+                <li><a href="#">SUVs y 100% Eléctricos</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <!-- Pie de página -->
     <footer>
-      <p>
-        &copy; 2026 Mi Tienda Virtual - SENA CIMI. Todos los derechos
-        reservados.
-      </p>
-      <ul class="redes-sociales">
-        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-      </ul>
+        <p>&copy; 2026 AutoElite - Proyecto ADSO | Desarrollado por <a href="#">Carlos Andrés Bello</a></p>
     </footer>
 
-    <!-- Script simple para dar funcionalidad a los botones -->
-    <script>
-      function comprar(producto) {
-        alert("¡Gracias por tu interés! Has seleccionado: " + producto);
-      }
-
-      function filtrar(categoria) {
-        alert("Filtrando por la categoría: " + categoria);
-      }
-    </script>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
-      reprehenderit molestiae! Neque praesentium, fuga iusto debitis quod quis
-      optio, inventore dolorem beatae laboriosam nostrum sunt tenetur quasi
-      rerum quidem blanditiis.
-  </p>
-
-  <p class="color">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure rerum
-      eum aperiam reiciendis doloremque eius! Deleniti reiciendis sint ipsa.
-    </p>
 </body>
 </html>

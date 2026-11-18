@@ -1,0 +1,13 @@
+.enlace-comprar {
+    color: #ffffff;
+    background-color: var(--color2);
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.enlace-comprar:hover {
+    background-color: var(--color);
+}
